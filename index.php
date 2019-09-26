@@ -4,7 +4,7 @@
 ini_set('display_errors', '1');
 
 
-#Подключение базы и автоподгрузка компонентов с моделями
+#Автоподгрузка компонентов с моделями и определение корневой папки
 define('ROOT', dirname(__FILE__));
 require_once(ROOT . '/components/Autoload.php');
 
